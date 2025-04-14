@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(23, 23, 23);
+}
+
+/* Seccion del Proyexto */
+#proyect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.project-heading{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-heading h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(202, 202, 202);
+}
+
+.project-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272727;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.project-filter li{
+    margin: 10px;
+    padding: 5px 20px;
+    color: rgb(118, 118, 118);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 0.5px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.project-filter-active{
+    background-color: #f0f0f0;
+    color: #272727;
+    border-radius: 20px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Seccion de las cartas */
+.sizeIcon{
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.card{
+    border-radius: 2em!important;
+    background-color: rgb(36, 36, 36)!important;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h5{
+    color: aliceblue;
+    text-align: center;
+}
+
+.card p{
+    color: aliceblue;
+}
+
+.card-body{
+    border-radius: 15px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    background-color: rgb(42, 42, 42);
+}
+
+.card .card-img-top{
+    width: 15rem; 
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 2em; 
+    margin: 10px;
+
+}
+
+@media (max-width: 400px){
+    .card{
+        padding-right: 0em;
+        padding-left: 0em;
+    }
+}
